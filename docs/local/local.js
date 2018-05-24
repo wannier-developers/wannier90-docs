@@ -1,12 +1,13 @@
 MathJax.Hub.Config({
         TeX: {
 	    Macros: {
-		bm: ["\\boldsymbol{#1}",1]
+		bm: ["\\boldsymbol{#1}",1],
+		bvec: ["\\bm{\\mathrm{#1}}",1]
 		    }
 	},
 	tex2jax: {
 	    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-		inlineMath: [['$','$']]
-		}
+	    inlineMath: [['$','$']]
+	    }
     });
 MathJax.Ajax.loadComplete("https://wannier-developers.github.io/wannier90-docs/local/local.js");

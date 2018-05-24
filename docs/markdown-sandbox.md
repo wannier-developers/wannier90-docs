@@ -44,10 +44,23 @@ Read the [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Mark
 This starts to be fairly complex:
 $$
 \newcommand{\bvec}[1]{\bm{\mathrm{#1}}}
-\langle w_{i\bvec 0}(\bvec{r})|\bvec{O}|w_{j\bvec{R}}(\bvec{r})\rangle
+\newcommand{\mycommand}[1]{[a #1 b]}
+\langle w_{i\bvec 0}(\bvec{r})|\bvec{O}|w_{j\bvec{R}}(\bvec{r})\rangle \mycommand{+}
 $$
+Note that, in order to define new macros, you need to either define them inside
+the command like here, or put them in the file `local/local.js`.
+Some official documentation [here](http://docs.mathjax.org/en/latest/tex.html#defining-tex-macros)
+and [here on how to integrate with CDNs](http://docs.mathjax.org/en/latest/configuration.html#using-a-local-configuration-file-with-a-cdn).
 
 
+This is even more complex:
+$$
+\begin{align}
+  [\bvec \sigma]_{ij}(\mu,T)&=e^2 \int_{-\infty}^{+\infty} d\varepsilon \left(-\frac {\partial f(\varepsilon,\mu,T)}{\partial \varepsilon}\right)\Sigma_{ij}(\varepsilon), \\
+  [\bvec \sigma \bvec S]_{ij}(\mu,T)&=\frac e T \int_{-\infty}^{+\infty} d\varepsilon \left(-\frac {\partial f(\varepsilon,\mu,T)}{\partial \varepsilon}\right)(\varepsilon-\mu)\Sigma_{ij}(\varepsilon), \label{eq:boltz-sigmas}\\
+  [\bvec K]_{ij}(\mu,T)&=\frac 1 T \int_{-\infty}^{+\infty} d\varepsilon \left(-\frac {\partial f(\varepsilon,\mu,T)}{\partial \varepsilon}\right)(\varepsilon-\mu)^2 \Sigma_{ij}(\varepsilon),\label{eq:boltz-thermcond}
+\end{align}
+$$
 
 ## A parameters table
 
