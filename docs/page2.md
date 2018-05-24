@@ -21,7 +21,9 @@ Some<sup>superscript</sup> and some<sub>subscript</sub>.
 Read the [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
 
 ## A parameters table
-[Parameters table anchor](#parameters-table)
+
+[//]: # (This is a comment: leave empty lines around)
+[//]: # (Note that every header automatically gets a anchor that can be linked to by putting to lowercase and replacing spaces with dashes)
 
 | Keyword | Type | Description |
 |:--------|:----:|:------------|

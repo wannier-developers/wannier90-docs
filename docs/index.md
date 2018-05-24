@@ -25,3 +25,6 @@ Test math2:
  {% endraw %}
 
 Goto [page 2](page2)
+
+Go to a specific section ([Parameters table](page2/#a-parameters-table)) of page 2
+(anchors created automatically by MD).
