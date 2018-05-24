@@ -25,3 +25,5 @@ Test math2:
  {% raw %}
   $$a^2 + b^2 = c^2$$
  {% endraw %}
+
+Goto [page 2](page2)
