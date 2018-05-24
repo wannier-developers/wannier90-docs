@@ -50,3 +50,37 @@ Read the [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Mark
 
 
 [^1]: Some footnote content
+
+
+
+## Some python code
+```python
+import sys
+
+def myf(a):
+    return a
+```
+
+
+## Some fortran code
+```fortran
+SUBROUTINE me
+
+INTEGER :: a
+
+CALL somefunction(a)
+
+! A comment
+IF (a .ne. 3) THEN
+    WRITE(*,*) "some string"
+END IF
+
+END SUBROUTINE
+```
+
+## Some uncolored text
+```
+This
+is 
+some output file   output
+```
