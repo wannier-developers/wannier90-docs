@@ -21,10 +21,11 @@ Some<sup>superscript</sup> and some<sub>subscript</sub>.
 Read the [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
 
 ## Another table
- Keyword | Type | Description 
-:--------|:----:|:------------
-`num_wann` | I | Number of WF 
-`unit_cell_cart` | P | Unit cell vectors in Cartesian coordinates
+
+| Keyword | Type | Description |
+|:--------|:----:|:------------|
+| `num_wann` | I | Number of WF |
+| `unit_cell_cart` | P | Unit cell vectors in Cartesian coordinates |
 
 
 
