@@ -1,2 +1,4 @@
 remote_theme: wannier-developers/slate
 markdown: kramdown
+plugins:
+  - jekyll-sitemap
