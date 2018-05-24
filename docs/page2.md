@@ -8,6 +8,15 @@ Goto [home page](index)
 
 Some<sup>superscript</sup> and some<sub>subscript</sub>.
 
+## A numbered list
+
+[//]: # (I explicitly create anchor tags here)
+
+
+1. <a name="point1"></a>Some content one
+1. <a name="point2"></a>Some content two
+1. <a name="point3"></a>Some content three
+
 ## A table
 
 | head1        | head two          | three |
@@ -29,6 +38,13 @@ Read the [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Mark
 |:--------|:----:|:------------|
 | `num_wann` | I | Number of WF |
 | `unit_cell_cart` | P | Unit cell vectors in Cartesian coordinates |
+
+## An itemized list
+
+- Line 1
+- Line 2
+- Line 3
+
 
 
 
