@@ -16,3 +16,6 @@ We ask that you acknowledge the use of wannier90 in any publications arising fro
 It would also be appropriate to cite the original articles:
 - Maximally localized generalized Wannier functions for composite energy bands, N. Marzari and D. Vanderbilt, Phys. Rev. B 56, 12847 (1997) 
 - Maximally localized Wannier functions for entangled energy bands, I. Souza, N. Marzari and D. Vanderbilt, Phys. Rev. B 65, 035109 (2001)
+
+
+Test math: $$\frac 1 2$$
