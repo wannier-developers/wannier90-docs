@@ -10,4 +10,4 @@ MathJax.Hub.Config({
 	    inlineMath: [['$','$']]
 	    }
     });
-MathJax.Ajax.loadComplete("[MathJax]/config/local.js");
+MathJax.Ajax.loadComplete("http://wannier-developers.github.io/wannier90-docs/assets/js/config/local.js");
