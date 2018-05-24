@@ -2,7 +2,17 @@
 
 ## This is page 2
 
-Let's see if footnotes work[^1].
+Let's see if footnotes work[^myfootnote].
+
+[//]: # (This will go at the bottom of the page)
+
+[^myfootnote]: Some footnote content
+
+I think this is probably the simplest way to have citations[^mycit].
+
+
+[^mycit]: N. Marzari and D. Vanderbilt, **Phys. Rev. B 56**, 12847 (1997).
+
 
 Goto [home page](index)
 
@@ -49,9 +59,6 @@ Read the [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Mark
 
 
 
-[^1]: Some footnote content
-
-
 
 ## Some python code
 ```python
@@ -84,3 +91,10 @@ This
 is 
 some output file   output
 ```
+
+## Citations
+<div class="citation-list">
+1. Citation 1
+2. Citation 1
+3. Citation 1
+</div>
