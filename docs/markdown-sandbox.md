@@ -93,8 +93,11 @@ some output file   output
 ```
 
 ## Citations
+
 <div class="citation-list">
+
 1. Citation 1
 2. Citation 1
 3. Citation 1
+
 </div>

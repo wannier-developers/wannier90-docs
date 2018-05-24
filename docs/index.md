@@ -24,8 +24,8 @@ Test math2:
   $$a^2 + b^2 = c^2$$
  {% endraw %}
 
-Goto [page 2](page2)
+Goto [the MarkDown sandobx](markdown-sandbox)
 
-Go to a specific section ([Parameters table](page2#a-parameters-table)) of page 2
-(anchors created automatically by MD), or to a explicitly created anchor ([Point 2 of the itemized list](page2#point2))
+Go to a specific section ([Parameters table](markdown-sandbox#a-parameters-table)) of page 2
+(anchors created automatically by MD), or to a explicitly created anchor ([Point 2 of the itemized list](markdown-sandbox#point2))
 
