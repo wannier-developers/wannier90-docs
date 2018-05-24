@@ -20,9 +20,7 @@ Test math: $$\frac 1 2$$
 
 
 Test math2: 
- {% raw %}
   $$a^2 + b^2 = c^2$$
- {% endraw %}
 
 Goto [the MarkDown sandbox](markdown-sandbox)
 

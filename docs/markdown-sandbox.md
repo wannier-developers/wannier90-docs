@@ -54,11 +54,11 @@ and [here on how to integrate with CDNs](http://docs.mathjax.org/en/latest/confi
 
 This is even more complex:
 $$
-\begin{align}
+\begin{aligned}
   [\bvec \sigma]_{ij}(\mu,T)&=e^2 \int_{-\infty}^{+\infty} d\varepsilon \left(-\frac {\partial f(\varepsilon,\mu,T)}{\partial \varepsilon}\right)\Sigma_{ij}(\varepsilon), \\
-  [\bvec \sigma \bvec S]_{ij}(\mu,T)&=\frac e T \int_{-\infty}^{+\infty} d\varepsilon \left(-\frac {\partial f(\varepsilon,\mu,T)}{\partial \varepsilon}\right)(\varepsilon-\mu)\Sigma_{ij}(\varepsilon), \label{eq:boltz-sigmas}\\
-  [\bvec K]_{ij}(\mu,T)&=\frac 1 T \int_{-\infty}^{+\infty} d\varepsilon \left(-\frac {\partial f(\varepsilon,\mu,T)}{\partial \varepsilon}\right)(\varepsilon-\mu)^2 \Sigma_{ij}(\varepsilon),\label{eq:boltz-thermcond}
-\end{align}
+  [\bvec \sigma \bvec S]_{ij}(\mu,T)&=\frac e T \int_{-\infty}^{+\infty} d\varepsilon \left(-\frac {\partial f(\varepsilon,\mu,T)}{\partial \varepsilon}\right)(\varepsilon-\mu)\Sigma_{ij}(\varepsilon), \\
+  [\bvec K]_{ij}(\mu,T)&=\frac 1 T \int_{-\infty}^{+\infty} d\varepsilon \left(-\frac {\partial f(\varepsilon,\mu,T)}{\partial \varepsilon}\right)(\varepsilon-\mu)^2 \Sigma_{ij}(\varepsilon),
+\end{aligned}
 $$
 
 ## A parameters table
@@ -116,14 +116,13 @@ is
 some output file   output
 ```
 
-## A SVG figure
-![An LCR setup](images/lcr_2c2.svg)
+[//]: # This works, but then cannot compile into pdf via latex.
+
+[//]: # ## A SVG figure
+[//]: #  ![An LCR setup](images/lcr_2c2.svg)
 
 ## A bitmap figure
-![A Wannier function](images/bt1.gif)
+![A Wannier function](images/bt1.png)
 
-
-[//]: # I put a horizontal line (before the footnotes)
-
----
+[//]: # Use only png or jpg for later latex compilation
 
