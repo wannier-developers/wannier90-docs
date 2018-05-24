@@ -20,7 +20,8 @@ Some<sup>superscript</sup> and some<sub>subscript</sub>.
 
 Read the [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
 
-## Another table
+## A parameters table
+[Parameters table anchor](#parameters-table)
 
 | Keyword | Type | Description |
 |:--------|:----:|:------------|
