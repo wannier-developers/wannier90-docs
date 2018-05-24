@@ -1,4 +1,5 @@
 # `wannier90`: User Guide
+{{ site.time | date_to_long_string: "ordinal" }}
 
 ## Introduction
 
