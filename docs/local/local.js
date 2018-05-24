@@ -9,4 +9,4 @@ MathJax.Hub.Config({
 		inlineMath: [['$','$']]
 		}
     });
-MathJax.Ajax.loadComplete("https://wannier-developers.github.io/wannier-docs/local/local.js");
+MathJax.Ajax.loadComplete("https://wannier-developers.github.io/wannier90-docs/local/local.js");
