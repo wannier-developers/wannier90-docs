@@ -107,6 +107,8 @@ END IF
 END SUBROUTINE
 ```
 
+
+
 ## Some uncolored text
 ```
 This
@@ -114,4 +116,14 @@ is
 some output file   output
 ```
 
-## Footnotes will appear here below
+## A SVG figure
+![An LCR setup](images/lcr_2c2.svg)
+
+## A bitmap figure
+![A Wannier function](images/bt1.gif)
+
+
+[//]: # I put a horizontal line (before the footnotes)
+
+---
+
