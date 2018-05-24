@@ -2,7 +2,7 @@
 
 ## Getting help 
 
-The latest version of wannier90 and documentation can always be found at http://www.wannier.org.
+The latest version of wannier90 and documentation can always be found at [http://www.wannier.org](http://www.wannier.org).
 There is a wannier90 mailing list for discussing issues in the development, theory, coding and algorithms pertinent to MLWF. You can register for this mailing list by following the links at http://www.wannier.org/forum.html
 Finally, many frequently asked questions are answered in Appendix B.
 
