@@ -39,6 +39,16 @@ Some<sup>superscript</sup> and some<sub>subscript</sub>.
 
 Read the [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
 
+## Complex LaTeX formulas
+
+This starts to be fairly complex:
+$$
+\newcommand{\bvec}[1]{\bm{\mathrm{#1}}}
+\langle w_{i\bvec 0}(\bvec{r})|\bvec{O}|w_{j\bvec{R}}(\bvec{r})\rangle
+$$
+
+
+
 ## A parameters table
 
 [//]: # (This is a comment: leave empty lines around)
