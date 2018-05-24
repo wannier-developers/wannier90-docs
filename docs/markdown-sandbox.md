@@ -4,7 +4,7 @@
 
 Let's see if footnotes work[^myfootnote].
 
-[//]: # (This will go at the bottom of the page)
+<!-- (This will go at the bottom of the page) -->
 
 [^myfootnote]: Some footnote content
 
@@ -16,12 +16,11 @@ I think this is probably the simplest way to have citations[^mycit].
 
 Goto [home page](index)
 
+Goto [bottom uncolored text](#some-uncolored-text)
+
 Some<sup>superscript</sup> and some<sub>subscript</sub>.
 
 ## A numbered list
-
-[//]: # (I explicitly create anchor tags here)
-
 
 1. <a name="point1"></a>Some content one
 1. <a name="point2"></a>Some content two
@@ -63,8 +62,7 @@ $$
 
 ## A parameters table
 
-[//]: # (This is a comment: leave empty lines around)
-[//]: # (Note that every header automatically gets a anchor that can be linked to by putting to lowercase and replacing spaces with dashes)
+<!-- Note that every header automatically gets a anchor that can be linked to by putting to lowercase and replacing spaces with dashes -->
 
 | Keyword | Type | Description |
 |:--------|:----:|:------------|
@@ -116,13 +114,14 @@ is
 some output file   output
 ```
 
-[//]: # This works, but then cannot compile into pdf via latex.
+<!-- This works, but then cannot compile into pdf via latex.
 
-[//]: # ## A SVG figure
-[//]: #  ![An LCR setup](images/lcr_2c2.svg)
+## A SVG figure
+![An LCR setup](images/lcr_2c2.svg)
+-->
 
 ## A bitmap figure
 ![A Wannier function](images/bt1.png)
 
-[//]: # Use only png or jpg for later latex compilation
+<!-- Use only png or jpg for later latex compilation -->
 

@@ -22,8 +22,8 @@ Test math: $$\frac 1 2$$
 Test math2: 
   $$a^2 + b^2 = c^2$$
 
-Goto [the MarkDown sandbox](markdown-sandbox)
+Goto [the MarkDown sandbox](./markdown-sandbox)
 
-Go to a specific section ([Parameters table](markdown-sandbox#a-parameters-table)) of page 2
-(anchors created automatically by MD), or to a explicitly created anchor ([Point 2 of the itemized list](markdown-sandbox#point2))
+Go to a specific section ([Parameters table](./markdown-sandbox#a-parameters-table)) of page 2
+(anchors created automatically by MD).
 
