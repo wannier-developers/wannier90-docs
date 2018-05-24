@@ -43,7 +43,6 @@ Read the [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Mark
 
 This starts to be fairly complex:
 $$
-\newcommand{\bvec}[1]{\bm{\mathrm{#1}}}
 \newcommand{\mycommand}[1]{[a #1 b]}
 \langle w_{i\bvec 0}(\bvec{r})|\bvec{O}|w_{j\bvec{R}}(\bvec{r})\rangle \mycommand{+}
 $$
