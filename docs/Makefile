@@ -7,8 +7,8 @@
 ## 
 ## - PDF links to sections
 
-user_guide.pdf: index.md markdown-sandbox.md header.tex pandocfilter.py
-	pandoc -s --filter pandocfilter.py -H header.tex index.md markdown-sandbox.md -o $@
+user_guide.pdf: index.md markdown-sandbox.md header.tex pandocfilter.py before_body.tex
+	pandoc -s --filter pandocfilter.py -H header.tex -B before_body.tex index.md markdown-sandbox.md -o $@
 
-user_guide.tex: index.md markdown-sandbox.md header.tex pandocfilter.py
-	pandoc -s --filter pandocfilter.py -H header.tex index.md markdown-sandbox.md -o $@
+user_guide.tex: index.md markdown-sandbox.md header.tex pandocfilter.py before_body.tex
+	pandoc -s --filter pandocfilter.py -H header.tex -B before_body.tex index.md markdown-sandbox.md -o $@

@@ -20,7 +20,11 @@ def caps(key, value, format, meta):
         dest = value[2][0]
         if '#' in dest and not  dest.startswith('http://') and not dest.startswith('https://') and not dest.startswith('/') and not dest.startswith('#'):
             value[2][0] = "#{}".format(dest.rpartition('#')[2])
-            print >> sys.stderr, "{} -> {}".format(dest, value[2][0])
+            print >> sys.stderr, "[INFO] {} -> {}".format(dest, value[2][0])
+            dest = value[2][0]
+        if not  dest.startswith('http://') and not dest.startswith('https://') and not dest.startswith('#'):
+            print >> sys.stderr, "[WARNING!] '{}' might not work".format(value[2][0])
+
         #print >> sys.stderr, "LINK", value
         return Link(*value)
 
